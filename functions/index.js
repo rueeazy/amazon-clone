@@ -1,3 +1,4 @@
+/* eslint-disable */
 const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
@@ -32,4 +33,5 @@ app.post("/payments/create", async (request, response) => {
 // - Listen Command
 exports.api = functions.https.onRequest(app);
 
+// Example Endpoint
 // http://localhost:5001/clone-36ea8/us-central1/api
