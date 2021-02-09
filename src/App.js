@@ -12,7 +12,9 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const promise = loadStripe(process.env.REACT_APP_LOAD_STRIPE_TEST_API_KEY);
+const promise = loadStripe(
+  "pk_test_51I8nXOEGdZbvFJdtx91SbZ5EShn0ESPgJsRt4Bwp1r5s0qnTTAyZA24se34X9xBRw3BbmuGpWiAoLzLHkUjPIti2004IUQeH0d"
+);
 
 function App() {
   const [{}, dispatch] = useStateValue();
