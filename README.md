@@ -2,6 +2,8 @@
 
 Amazon Clone - React Web App
 
+[Live App](https://clone-36ea8.web.app/)
+
 ## Motivation
 
 This project served as practice to build a full stack React Application hosted on Google Firebase. It's an ecommerce with multiple components and API's interacting with one another.
